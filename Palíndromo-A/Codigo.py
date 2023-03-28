@@ -32,3 +32,16 @@ if palindromoA.palindromo():
     print ("Es palindromo")
 else:
     print ("No es palindromo")
+print("Quiere seguir comprobando? (s/n)")
+respuesta = input()
+if respuesta == "s":
+    print ("Ingrese una frase")
+    frase = input()
+    palindromoA = palindromoA(frase)
+    if palindromoA.palindromo():
+        print ("Es palindromo")
+    else:
+        print ("No es palindromo")
+else:
+    print ("Gracias por usar el programa")
+    
