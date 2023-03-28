@@ -1,4 +1,4 @@
-class palindromoA
+class palindromoA:
     def __init__(self, frase):
         self.frase = frase
         self.frase = self.frase.replace(" ", "")
