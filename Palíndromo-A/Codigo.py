@@ -19,3 +19,16 @@ class palindromoA
         self.frase = self.frase.replace(":", "")
         self.frase = self.frase.replace(";", "")
         self.frase = self.frase.replace("(", "")
+
+    def palindromo(self):
+        if self.frase == self.frase[::-1]:
+            return True
+        else:
+            return False
+print ("Ingrese una frase")
+frase = input()
+palindromoA = palindromoA(frase)
+if palindromoA.palindromo():
+    print ("Es palindromo")
+else:
+    print ("No es palindromo")
