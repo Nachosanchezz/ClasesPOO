@@ -1,5 +1,5 @@
 # metodo instacia 
-from PalíndromoA import Palindromo
+from CodigoA import Palindromo
 class Palindromotest(Palindromo):
     def __init__(self, texto):
         self.texto = texto
