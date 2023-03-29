@@ -1,0 +1,4 @@
+al principio, define la clase A donde dentro tiene dos ¨metodos"; z,y. 
+El metodo Z devuelve Z
+El metodo y, mide una longitud
+asigna a a A en a=A
