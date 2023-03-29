@@ -8,3 +8,6 @@ aa = a() -> denota o define aa como a()
 con el is compara aa y a()
 z = aa.y --> el metodo z lo convierte en el metodo(y) de aa
 print(z(())) --> printea z vacio por lo tanto sera 0
+print(a().y((a,))) --> crea una nueva (a) y hace que pase el metodo (y)
+print(A.y(aa, (a,z))) --> Hace pasar el metodo (y) de la clase (a) por (aa) y por (a), (z)
+print(aa.y((z,1,'z'))) --> Pasa el metodo (y) de la clase (aa) por los valores dados y esto da longitud 3 porque son 3 
