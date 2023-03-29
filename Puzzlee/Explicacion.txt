@@ -2,3 +2,9 @@ al principio, define la clase A donde dentro tiene dos ¨metodos"; z,y.
 El metodo Z devuelve Z
 El metodo y, mide una longitud
 asigna a a A en a=A
+y = a.z aui lo que hace es que el metodo (y) lo convierte en el metodo de z sobre A
+"Printea" lo anterior
+aa = a() -> denota o define aa como a()
+con el is compara aa y a()
+z = aa.y --> el metodo z lo convierte en el metodo(y) de aa
+print(z(())) --> printea z vacio por lo tanto sera 0
